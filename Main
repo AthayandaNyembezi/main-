@@ -1,0 +1,16 @@
+import za.ac.wsu.s221694919.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Circle c = new Circle();
+
+        c.setRadius(3.2);
+        c.setX(6.0);
+        c.setY(1.0);
+    
+        System.out.println(c.calculateArea());
+        
+    }
+}
